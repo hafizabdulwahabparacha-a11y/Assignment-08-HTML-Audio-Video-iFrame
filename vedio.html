@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>vedio</h1>
+    <video width="500" controls poster="thumbnail.jpg" preload="none">
+  <source src="6648423-uhd_4096_2160_25fps.mp4">
+</video>
+</body>
+</html>
+
+
+<hr>
+<!-- 
+1. What is the purpose of preload?
+The 'preload' attribute in HTML5 <video> and <audio> tags informs the browser 
+how much of a media file it should download when the page loads. Its primary 
+purpose is to balance the user experience (starting playback quickly) with 
+bandwidth conservation (avoiding unnecessary data usage).
+
+
+
+2. Difference between preload="none" and preload="auto"?
+
+- preload="none": 
+  The browser will not download any part of the media file until the user 
+  explicitly clicks the "play" button. This is the best setting for saving 
+  server bandwidth and minimizing data costs for users, though it might 
+  cause a slight delay when the user finally decides to watch the video.
+
+- preload="auto": 
+  The browser is encouraged to download the entire media file (or as much 
+  as possible) as soon as the page loads, even if the user hasn't interacted 
+  with it yet. This ensures the fastest possible playback once the user 
+  hits play, but it consumes more data and can slow down the loading of 
+  other page elements. -->
